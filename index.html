@@ -21,10 +21,18 @@
   <script>
     // 1) Load the JSON data once at start
     let troubleCodes = {};
-    fetch('codes.json')
-      .then(r => r.json())
-      .then(json => { troubleCodes = json; })
-      .catch(() => { console.error('Could not load codes.json'); });
+   fetch('./codes.json')
+  .then(r => {
+    if (!r.ok) throw new Error(r.statusText);
+    return r.json();
+  })
+  .then(json => { troubleCodes = json; })
+  .catch(err => {
+    document.getElementById('result').textContent =
+      'Error loading codes: ' + err.message;
+    console.error('Fetch error:', err);
+  });
+
 
     // 2) On each keystroke, search
     document.getElementById('searchBox').addEventListener('input', function() {
