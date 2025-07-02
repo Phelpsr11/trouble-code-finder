@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OBD‑II Trouble Code Finder</title>
+  <style>
+    body { font-family: sans-serif; display: flex; justify-content: center; padding: 40px; }
+    .container { max-width: 600px; width: 100%; text-align: center; }
+    h1 { font-size: 1.5rem; margin-bottom: 1rem; }
+    input { padding: 0.75rem; width: 100%; font-size: 1rem; }
+    #result { margin-top: 1rem; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>New Trouble Code Finder!</h1>
+    <input id="searchBox" placeholder="Enter OBD‑II code (e.g., P0301)" />
+    <div id="result"></div>
+  </div>
+  <script>
+    // 1) Load the JSON data once at start
+    let troubleCodes = {};
+    fetch('codes.json')
+      .then(r => r.json())
+      .then(json => { troubleCodes = json; })
+      .catch(() => { console.error('Could not load codes.json'); });
+
+    // 2) On each keystroke, search
+    document.getElementById('searchBox').addEventListener('input', function() {
+      const code = this.value.toUpperCase().trim();
+      const out = document.getElementById('result');
+      if (!code) {
+        out.textContent = '';
+      } else if (code.length >= 2 && code[1] === '1') {
+        out.textContent = `${code}: This is a manufacturer‑specific code. Please refer to your vehicle's manufacturer.`;
+      } else if (troubleCodes[code]) {
+        out.textContent = `${code}: ${troubleCodes[code]}`;
+      } else {
+        out.textContent = 'Code not found. Please check and try again.';
+      }
+    });
+  </script>
+</body>
+</html>
