@@ -1,309 +1,91 @@
    {
-"code": "P0001",
-"description": "Fuel Volume Regulator A Control Circuit/Open"
-},
-{
-"code": "P0002",
-"description": "Fuel Volume Regulator A Control Circuit Performance"
-},
-{
-"code": "P0003",
-"description": "Fuel Volume Regulator A Control Circuit Low"
-},
-{
-"code": "P0004",
-"description": "Fuel Volume Regulator A Control Circuit High"
-},
-{
-"code": "P0005",
-"description": "Fuel Shutoff Valve A Control Circuit/Open"
-},
-{
-"code": "P0006",
-"description": "Fuel Shutoff Valve A Control Circuit Low"
-},
-{
-"code": "P0007",
-"description": "Fuel Shutoff Valve A Control Circuit High"
-},
-{
-"code": "P0008",
-"description": "Engine Position System Performance Bank 1"
-},
-{
-"code": "P0009",
-"description": "Engine Position System Performance Bank 2"
-},
-{
-"code": "P000A",
-"description": "A Camshaft Position Slow Response Bank 1"
-},
-{
-"code": "P000B",
-"description": "B Camshaft Position Slow Response Bank 1"
-},
-{
-"code": "P000C",
-"description": "A Camshaft Position Slow Response Bank 2"
-},
-{
-"code": "P000D",
-"description": "B Camshaft Position Slow Response Bank 2"
-},
-{
-"code": "P000E",
-"description": "Fuel Volume Regulator Control Exceeded Learning Limit"
-},
-{
-"code": "P000F",
-"description": "Fuel System Over Pressure Relief Valve Activated"
-},
-{
-"code": "P0010",
-"description": "A Camshaft Position Actuator A Control Circuit/Open Bank 1"
-},
-{
-"code": "P0013",
-"description": "B Camshaft Position Actuator A Control Circuit/Open Bank 1"
-},
-{
-"code": "P001A",
-"description": "A Camshaft Profile Actuator A Control Circuit/Open Bank 1"
-},
-{
-"code": "P001B",
-"description": "A Camshaft Profile Actuator A Control Circuit Low Bank 1"
-},
-{
-"code": "P001C",
-"description": "A Camshaft Profile Actuator A Control Circuit High Bank 1"
-},
-{
-"code": "P001D",
-"description": "A Camshaft Profile Actuator A Control Circuit/Open Bank 2"
-},
-{
-"code": "P001E",
-"description": "A Camshaft Profile Actuator A Control Circuit Low Bank 2"
-},
-{
-"code": "P001F",
-"description": "A Camshaft Profile Actuator A Control Circuit High Bank 2"
-},
-{
-"code": "P0020",
-"description": "A Camshaft Position Actuator A Control Circuit/Open Bank 2"
-},
-{
-"code": "P0023",
-"description": "B Camshaft Position Actuator A Control Circuit/Open Bank 2"
-},
-{
-"code": "P0026",
-"description": "Intake Valve Control Solenoid Circuit Range/Performance Bank 1"
-},
-{
-"code": "P0027",
-"description": "Exhaust Valve Control Solenoid Circuit Range/Performance Bank 1"
-},
-{
-"code": "P0028",
-"description": "Intake Valve Control Solenoid Circuit Range/Performance Bank 2"
-},
-{
-"code": "P0029",
-"description": "Exhaust Valve Control Solenoid Circuit Range/Performance Bank 2"
-},
-{
-"code": "P002A",
-"description": "B Camshaft Profile Actuator A Control Circuit/Open Bank 1"
-},
-{
-"code": "P002B",
-"description": "B Camshaft Profile Actuator A Control Circuit Low Bank 1"
-},
-{
-"code": "P002C",
-"description": "B Camshaft Profile Actuator A Control Circuit High Bank 1"
-},
-{
-"code": "P002D",
-"description": "B Camshaft Profile Actuator A Control Circuit/Open Bank 2"
-},
-{
-"code": "P002E",
-"description": "B Camshaft Profile Actuator A Control Circuit Low Bank 2"
-},
-{
-"code": "P002F",
-"description": "B Camshaft Profile Actuator A Control Circuit High Bank 2"
-},
-{
-"code": "P0030",
-"description": "HO2S Heater Control Circuit Bank 1 Sensor 1"
-},
-{
-"code": "P0031",
-"description": "HO2S Heater Control Circuit Low Bank 1 Sensor 1"
-},
-{
-"code": "P0032",
-"description": "HO2S Heater Control Circuit High Bank 1 Sensor 1"
-},
-{
-"code": "P0033",
-"description": "Turbocharger/Supercharger Bypass Valve A Control Circuit"
-},
-{
-"code": "P0034",
-"description": "Turbocharger/Supercharger Bypass Valve A Control Circuit Low"
-},
-{
-"code": "P0035",
-"description": "Turbocharger/Supercharger Bypass Valve A Control Circuit High"
-},
-{
-"code": "P0036",
-"description": "HO2S Heater Control Circuit Bank 1 Sensor 2"
-},
-{
-"code": "P0037",
-"description": "HO2S Heater Control Circuit Low Bank 1 Sensor 2"
-},
-{
-"code": "P0038",
-"description": "HO2S Heater Control Circuit High Bank 1 Sensor 2"
-},
-{
-"code": "P0039",
-"description": "Turbocharger/Supercharger Bypass Valve A Control Circuit Range/Performance"
-},
-{
-"code": "P003A",
-"description": "Turbocharger/Supercharger Boost Control A Position Exceeded Learning Limit"
-},
-{
-"code": "P003B",
-"description": "Turbocharger/Supercharger Boost Control B Position Exceeded Learning Limit"
-},
-{
-"code": "P003C",
-"description": "A Camshaft Profile Actuator A Control Performance/Stuck Off Bank 1"
-},
-{
-"code": "P003D",
-"description": "A Camshaft Profile Actuator A Control Stuck On Bank 1"
-},
-{
-"code": "P003E",
-"description": "A Camshaft Profile Actuator A Control Performance/Stuck Off Bank 2"
-},
-{
-"code": "P003F",
-"description": "A Camshaft Profile Actuator A Control Stuck On Bank 2"
-},
-{
-"code": "P0040",
-"description": "O2 Sensor Signals Swapped Bank 1 Sensor 1/Bank 2 Sensor 1"
-},
-{
-"code": "P0041",
-"description": "O2 Sensor Signals Swapped Bank 1 Sensor 2/Bank 2 Sensor 2"
-},
-{
-"code": "P0042",
-"description": "HO2S Heater Control Circuit Bank 1 Sensor 3"
-},
-{
-"code": "P0043",
-"description": "HO2S Heater Control Circuit Low Bank 1 Sensor 3"
-},
-{
-"code": "P0044",
-"description": "HO2S Heater Control Circuit High Bank 1 Sensor 3"
-},
-{
-"code": "P0045",
-"description": "Turbocharger/Supercharger Boost Control A Circuit/Open"
-},
-{
-"code": "P0046",
-"description": "Turbocharger/Supercharger Boost Control A Circuit Range/Performance"
-},
-{
-"code": "P0047",
-"description": "Turbocharger/Supercharger Boost Control A Circuit Low"
-},
-{
-"code": "P0048",
-"description": "Turbocharger/Supercharger Boost Control A Circuit High"
-},
-{
-"code": "P0049",
-"description": "Turbocharger/Supercharger A Turbine Overspeed"
-},
-{
-"code": "P004A",
-"description": "Turbocharger/Supercharger Boost Control B Circuit/Open"
-},
-{
-"code": "P004B",
-"description": "Turbocharger/Supercharger Boost Control B Circuit Range/Performance"
-},
-{
-"code": "P004C",
-"description": "Turbocharger/Supercharger Boost Control B Circuit Low"
-},
-{
-"code": "P004D",
-"description": "Turbocharger/Supercharger Boost Control B Circuit High"
-},
-{
-"code": "P004E",
-"description": "Turbocharger/Supercharger Boost Control A Circuit Intermittent/Erratic"
-},
-{
-"code": "P004F",
-"description": "Turbocharger/Supercharger Boost Control B Circuit Intermittent/Erratic"
-},
-{
-"code": "P0050",
-"description": "HO2S Heater Control Circuit Bank 2 Sensor 1"
-},
-{
-"code": "P0051",
-"description": "HO2S Heater Control Circuit Low Bank 2 Sensor 1"
-},
-{
-"code": "P0052",
-"description": "HO2S Heater Control Circuit High Bank 2 Sensor 1"
-},
-{
-"code": "P0053",
-"description": "HO2S Heater Resistance Bank 1 Sensor 1"
-},
-{
-"code": "P0054",
-"description": "HO2S Heater Resistance Bank 1 Sensor 2"
-},
-{
-"code": "P0055",
-"description": "HO2S Heater Resistance Bank 1 Sensor 3"
-},
-{
-"code": "P0056",
-"description": "HO2S Heater Control Circuit Bank 2 Sensor 2"
-},
-{
-"code": "P0057",
-"description": "HO2S Heater Control Circuit Low Bank 2 Sensor 2"
-},
-{
-"code": "P0058",
-"description": "HO2S Heater Control Circuit High Bank 2 Sensor 2"
-},
-{
-"code": "P0059",
-"description": "HO2S Heater Resistance Bank 2 Sensor 1"
-},
+"P0001": "Fuel Volume Regulator A Control Circuit/Open",
+"P0002": "Fuel Volume Regulator A Control Circuit Performance",
+"P0003": "Fuel Volume Regulator A Control Circuit Low",
+"P0004": "Fuel Volume Regulator A Control Circuit High",
+"P0005": "Fuel Shutoff Valve A Control Circuit/Open",
+"P0006": "Fuel Shutoff Valve A Control Circuit Low",
+"P0007": "Fuel Shutoff Valve A Control Circuit High",
+"P0008": "Engine Position System Performance Bank 1",
+"P0009": "Engine Position System Performance Bank 2",
+"P000A": "A Camshaft Position Slow Response Bank 1",
+"P000B": "B Camshaft Position Slow Response Bank 1",
+"P000C": "A Camshaft Position Slow Response Bank 2",
+"P000D": "B Camshaft Position Slow Response Bank 2",
+"P000E": "Fuel Volume Regulator Control Exceeded Learning Limit",
+"P000F": "Fuel System Over Pressure Relief Valve Activated",
+"P0010": "A Camshaft Position Actuator A Control Circuit/Open Bank 1",
+"P0011": "A Camshaft Position - Timing Over-Advanced or System Performance Bank 1",
+"P0012": "A Camshaft Position - Timing Over-Retarded Bank 1",
+"P0013": "B Camshaft Position Actuator A Control Circuit/Open Bank 1",
+"P0014": "B Camshaft Position - Timing Over-Advanced or System Performance Bank 1",
+"P0015": "B Camshaft Position - Timing Over-Retarded Bank 1",
+"P0016": "Crankshaft Position - Camshaft Position Correlation Bank 1 Sensor A",
+"P0017": "Crankshaft Position - Camshaft Position Correlation Bank 1 Sensor B",
+"P0018": "Crankshaft Position - Camshaft Position Correlation Bank 2 Sensor A",
+"P0019": "Crankshaft Position - Camshaft Position Correlation Bank 2 Sensor B",
+"P001A": "A Camshaft Profile Actuator A Control Circuit/Open Bank 1",
+"P001B": "A Camshaft Profile Actuator A Control Circuit Low Bank 1",
+"P001C": "A Camshaft Profile Actuator A Control Circuit High Bank 1",
+"P001D": "A Camshaft Profile Actuator A Control Circuit/Open Bank 2",
+"P001E": "A Camshaft Profile Actuator A Control Circuit Low Bank 2",
+"P001F": "A Camshaft Profile Actuator A Control Circuit High Bank 2",
+"P0020": "A Camshaft Position Actuator A Control Circuit/Open Bank 2",
+"P0021": "A Camshaft Position - Timing Over-Advanced or System Performance Bank 2",
+"P0022": "A Camshaft Position - Timing Over-Retarded Bank 2",
+"P0023": "B Camshaft Position Actuator A Control Circuit/Open Bank 2",
+"P0024": "B Camshaft Position - Timing Over-Advanced or System Performance Bank 2",
+"P0025": "B Camshaft Position - Timing Over-Retarded Bank 2",
+"P0026": "Intake Valve Control Solenoid Circuit Range/Performance Bank 1",
+"P0027": "Exhaust Valve Control Solenoid Circuit Range/Performance Bank 1",
+"P0028": "Intake Valve Control Solenoid Circuit Range/Performance Bank 2",
+"P0029": "Exhaust Valve Control Solenoid Circuit Range/Performance Bank 2",
+"P002A": "B Camshaft Profile Actuator A Control Circuit/Open Bank 1",
+"P002B": "B Camshaft Profile Actuator A Control Circuit Low Bank 1",
+"P002C": "B Camshaft Profile Actuator A Control Circuit High Bank 1",
+"P002D": "B Camshaft Profile Actuator A Control Circuit/Open Bank 2",
+"P002E": "B Camshaft Profile Actuator A Control Circuit Low Bank 2",
+"P002F": "B Camshaft Profile Actuator A Control Circuit High Bank 2",
+"P0030": "HO2S Heater Control Circuit Bank 1 Sensor 1",
+"P0031": "HO2S Heater Control Circuit Low Bank 1 Sensor 1",
+"P0032": "HO2S Heater Control Circuit High Bank 1 Sensor 1",
+"P0033": "Turbocharger/Supercharger Bypass Valve A Control Circuit",
+"P0034": "Turbocharger/Supercharger Bypass Valve A Control Circuit Low",
+"P0035": "Turbocharger/Supercharger Bypass Valve A Control Circuit High",
+"P0036": "HO2S Heater Control Circuit Bank 1 Sensor 2",
+"P0037": "HO2S Heater Control Circuit Low Bank 1 Sensor 2",
+"P0038": "HO2S Heater Control Circuit High Bank 1 Sensor 2",
+"P0039": "Turbocharger/Supercharger Bypass Valve A Control Circuit Range/Performance",
+"P003A": "Turbocharger/Supercharger Boost Control A Position Exceeded Learning Limit",
+"P003B": "Turbocharger/Supercharger Boost Control B Position Exceeded Learning Limit",
+"P003C": "A Camshaft Profile Actuator A Control Performance/Stuck Off Bank 1",
+"P003D": "A Camshaft Profile Actuator A Control Stuck On Bank 1",
+"P003E": "A Camshaft Profile Actuator A Control Performance/Stuck Off Bank 2",
+"P003F": "A Camshaft Profile Actuator A Control Stuck On Bank 2",
+"P0040": "O2 Sensor Signals Swapped Bank 1 Sensor 1/Bank 2 Sensor 1",
+"P0041": "O2 Sensor Signals Swapped Bank 1 Sensor 2/Bank 2 Sensor 2",
+"P0042": "HO2S Heater Control Circuit Bank 1 Sensor 3",
+"P0043": "HO2S Heater Control Circuit Low Bank 1 Sensor 3",
+" P004": "HO2S Heater Control Circuit High Bank 1 Sensor 3",
+"P0045": "Turbocharger/Supercharger Boost Control A Circuit/Open",
+"P0046": "Turbocharger/Supercharger Boost Control A Circuit Range/Performance",
+"P0047": "Turbocharger/Supercharger Boost Control A Circuit Low",
+"P0048": "Turbocharger/Supercharger Boost Control A Circuit High",
+"P0049": "Turbocharger/Supercharger A Turbine Overspeed",
+"P004A": "Turbocharger/Supercharger Boost Control B Circuit/Open",
+"P004B": "Turbocharger/Supercharger Boost Control B Circuit Range/Performance",
+"P004C": "Turbocharger/Supercharger Boost Control B Circuit Low",
+"P004D": "Turbocharger/Supercharger Boost Control B Circuit High",
+"P004E": "Turbocharger/Supercharger Boost Control A Circuit Intermittent/Erratic",
+"P004F": "Turbocharger/Supercharger Boost Control B Circuit Intermittent/Erratic",
+"P0050": "HO2S Heater Control Circuit Bank 2 Sensor 1",
+"P0051": "HO2S Heater Control Circuit Low Bank 2 Sensor 1",
+"P0052": "HO2S Heater Control Circuit High Bank 2 Sensor 1",
+"P0053": "HO2S Heater Resistance Bank 1 Sensor 1",
+"P0054": "HO2S Heater Resistance Bank 1 Sensor 2",
+"P0055": "HO2S Heater Resistance Bank 1 Sensor 3",
+"P0056": "HO2S Heater Control Circuit Bank 2 Sensor 2",
+"P0057": "HO2S Heater Control Circuit Low Bank 2 Sensor 2",
+"P0058": "HO2S Heater Control Circuit High Bank 2 Sensor 2",
+"P0059": "HO2S Heater Resistance Bank 2 Sensor 1"
 }
